@@ -1,0 +1,95 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #222831;
+}
+
+.grid{
+    position: relative;
+    width: 630px;
+    padding: 0 5px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(20, 12, 56);
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.block{
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+
+    margin: 0;
+
+    position: absolute;
+}
+
+.user{
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    background-position-y: -15px;
+    box-sizing: border-box;
+
+    margin: 0;
+
+    position: absolute;
+    bottom: 20px;
+    left: 260px;
+}
+
+.ball{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background-color: brown;
+    position: absolute;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800px;
+    color: #eeeeee;
+    border: 3px solid #393E46;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.back{
+    background-color: #222831;
+    color: #FFFFD2;
+    border: 1px solid #3E4149;
+    font-size: 30px;
+
+    padding: 5px 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.back:hover{
+    background-color: #ffffd26f;
+}
+
+.back > a{
+    text-decoration: none;
+    color: #FFFFD2;
+}
